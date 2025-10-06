@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Microservicio de Comportamiento activo"}
 
 
 # Endpoint para obtener el comportamiento según ciudad y fecha
